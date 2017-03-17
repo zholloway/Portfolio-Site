@@ -64,7 +64,7 @@ header {
   padding-right: .5em;
 }
 
-.triangle {
+.speechBubble .triangle {
   position: absolute;
   left: .375em;
   top: 2.325em;
@@ -88,8 +88,8 @@ header {
 }
 
 .projectPreview img {
-  height: 45px;
-  width: 65px;
+  height: 60px;
+  width: 80px;
   margin-left:.25em;
   margin-right: .25em;
 }
