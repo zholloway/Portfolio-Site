@@ -4,5 +4,35 @@ html {
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  max-height: 35%; 
+  background-image: url("images/space.png");
+  background-size: cover;
+}
+
+.projectPreview {
+  display: flex;
+}
+
+.projectPreview img {
+  height: 25px;
+  width: 25px;
+  padding-left: .5em;
+}
+
+main {
+  max-height: 35%;
+}
+
+footer {
+  max-height: 30%;
 }
