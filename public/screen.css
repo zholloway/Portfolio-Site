@@ -20,7 +20,7 @@ Header
 */
 
 header {
-  background-image: url("images/space.png");
+  background-image: url("images/blueUniverse.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -150,8 +150,8 @@ h2 {
 
 .blogPreview a {
   text-decoration: none;
-  background-color: cornflowerblue;
-  border: 1.5px solid cornflowerblue;
+  background-color: #076cab;
+  border: 1.5px solid #076cab;
   border-radius: 2px;
   color: white;
   font-size: .55em;
@@ -176,9 +176,14 @@ footer {
 }
 
 footer h3 {
-  font-size: .65em;
+  font-size: .7em;
 }
 
 footer p {
   font-size: .4em;
+}
+
+footer img {
+  padding-right: .5em;
+  padding-left: .5em;
 }
