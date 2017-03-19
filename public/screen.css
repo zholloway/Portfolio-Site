@@ -83,7 +83,7 @@ header {
 .projectPreview {
   margin-top: 2em;
   background-color: rgba(12, 14, 38, .5);
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -216,9 +216,9 @@ Scaling: iPad
       margin-bottom: 1.5em;
     }
 
-  .meTalky {
-    margin-bottom: .5em;
-  }
+    .meTalky {
+      margin-bottom: .5em;
+    }
 
     .meTalky img {
       height: 200px;
@@ -365,14 +365,13 @@ Scaling: iPad
 
   }
 
-}
-
 /* 
 ///
 Scaling: Monitor
 ///
 */
-@media (min-width: 769px) {
+
+@media (min-width: 770px) {
 
   body {
     margin-left: 15%;
@@ -430,24 +429,24 @@ Scaling: Monitor
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
   .projectPreviewTwo {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
   .projectPreviewThree {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
   .projectPreview h2{
