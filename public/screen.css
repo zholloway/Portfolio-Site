@@ -205,7 +205,7 @@ footer img {
 Scaling: iPad
 ///
 */
-@media (max-width: 768px) and (min-width: 450px;) {
+@media (max-width: 768px) and (min-width: 450px) {
 
   body {
       margin-left: 5%;
@@ -217,7 +217,7 @@ Scaling: iPad
     }
 
   .meTalky {
-    margin-bottom: 2.5em;
+    margin-bottom: .5em;
   }
 
     .meTalky img {
