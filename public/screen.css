@@ -76,15 +76,23 @@ header {
   border-color: #f0f0f0 transparent transparent transparent;
 }
 
+.speechBubble a {
+  color: #0d0d0d;
+}
+
 .projectPreview {
   margin-top: 2em;
   background-color: rgba(12, 14, 38, .5);
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding-top: .5em;
   padding-bottom: .5em;
+}
+
+.projectPreviewText {
+  display: none;
 }
 
 .projectPreview img {
@@ -158,7 +166,7 @@ h2 {
 
 /* 
 ///
-Main
+Footer
 ///
 */
 
@@ -178,4 +186,147 @@ footer p {
 footer img {
   padding-right: .5em;
   padding-left: .5em;
+}
+
+/* 
+///
+Scaling: iPad
+///
+*/
+
+/* 
+///
+Scaling: Monitor
+///
+*/
+@media (min-width:769px) {
+
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  header {
+    margin-bottom: 1.5em;
+  }
+
+ .meTalky {
+   margin-bottom: 2.5em;
+ }
+
+  .meTalky img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .speechBubble {
+    width: 17em;
+    height: 6.5em;
+  }
+
+  .speechBubble .triangle{
+    position: absolute;
+    left: 7px;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #f0f0f0 transparent transparent transparent;
+  }
+
+  .speechBubble h1 {
+    font-size: 1.4em;
+  }
+
+  .speechBubble p{
+    font-size: .9em;
+    padding-left: .8em;
+  }
+
+  .projectPreview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    text-align: center;
+    width: 95%;
+  }
+
+  .projectPreviewOne {
+    display: flex;
+  }
+
+  .projectPreviewText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectPreview img{
+    height: 120px;
+    width: 150px;
+    margin: 0;
+    padding-left: 3em;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .blogPreview {
+    width: 48.5%;
+  }
+
+  .blogPreview h2 {
+    font-size: 1.7em;
+    margin-left: 1em;
+    margin-bottom: 0;
+  }
+
+  .blogTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+  }
+
+  .blogPreview p {
+    font-size: .9em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .blogTitle p {
+    font-size: .75em;
+    margin-top: .5em;
+    margin-left: 2.4em;
+    color: #870000;
+  }
+
+  .blogHighlight {
+    height: 30px;
+  }
+
+  .blogPreview a {
+    font-size: .85em;
+  }
+
+  footer h3 {
+    font-size: 1.3em;
+  }
+
+  footer img {
+    height: 50px;
+    width: 50px;
+  }
+
+  footer p {
+    font-size: .7em;
+    margin-top: 2em;
+  }
+
 }
