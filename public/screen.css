@@ -205,13 +205,174 @@ footer img {
 Scaling: iPad
 ///
 */
+@media (max-width: 768px) {
+
+  body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    header {
+      margin-bottom: 1.5em;
+    }
+
+  .meTalky {
+    margin-bottom: 2.5em;
+  }
+
+    .meTalky img {
+      height: 200px;
+      width: 200px;
+      padding-right: .7em;
+    }
+
+    .speechBubble {
+      width: 18.5em;
+      height: 7.5em;
+    }
+
+    .speechBubble .triangle{
+      position: absolute;
+      left: 7px;
+      bottom: -16px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 20px 0 0;
+      border-color: #f0f0f0 transparent transparent transparent;
+    }
+
+    .speechBubble h1 {
+      font-size: 1.6em;
+    }
+
+    .speechBubble p{
+      font-size: 1.1em;
+      padding-left: .8em;
+    }
+
+    .projectPreview {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: center;
+    }
+
+    .projectPreviewOne {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-right: .5em;
+    }
+
+    .projectPreviewTwo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-left: .5em;
+      margin-right: .5em;
+    }
+
+    .projectPreviewThree {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-left: .5em;
+    }
+
+    .projectPreview h2{
+      margin-left: 1em;
+      margin-right: 1em;
+      font-size: 1.2em;
+      padding: 0;
+      background-color: #076cab;
+      border: 1.5px solid #076cab;
+      border-radius: 2px;
+      color: white;
+    }
+
+    .projectPreview img{
+      height: 140px;
+      width: 180px;
+      margin-right: 1em;
+      margin-left: 1em;
+      margin-bottom: .5em;
+      padding: 0;
+      border: 3px solid #870000;
+      border-radius: 5px;
+    }
+
+    main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .blogPreview {
+      width: 48.5%;
+      padding-bottom: .5em;
+    }
+
+    .blogPreview h2 {
+      font-size: 1.9em;
+      margin-left: 1em;
+      margin-bottom: 0;
+    }
+
+    .blogTitle {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: .5em;
+    }
+
+    .blogPreview p {
+      font-size: 1em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+
+    .blogTitle p {
+      font-size: .85em;
+      margin-top: .5em;
+      margin-left: 2.4em;
+      color: #870000;
+    }
+
+    .blogHighlight {
+      height: 30px;
+    }
+
+    .blogPreview a {
+      font-size: 1em;
+    }
+
+    footer h3 {
+      font-size: 1.5em;
+    }
+
+    footer img {
+      height: 60px;
+      width: 60px;
+    }
+
+    footer p {
+      font-size: .9em;
+      margin-top: 2em;
+    }
+
+  }
+
+}
 
 /* 
 ///
 Scaling: Monitor
 ///
 */
-@media (min-width:769px) {
+@media (min-width: 769px) {
 
   body {
     margin-left: 15%;
