@@ -89,10 +89,7 @@ header {
   justify-content: center;
   padding-top: .5em;
   padding-bottom: .5em;
-}
-
-.projectPreviewText {
-  display: none;
+  text-align: center;
 }
 
 .projectPreview img {
@@ -101,6 +98,19 @@ header {
   padding-left: .5em;
   padding-right: .5em;
 }
+
+.projectPreview h2{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: .8em;
+    padding: 0;
+    background-color: #076cab;
+    border: 1.5px solid #076cab;
+    border-radius: 2px;
+    color: white;
+    padding-top: .1em;
+    padding-bottom: .1em;
+  }
 
 /* 
 ///
@@ -246,29 +256,57 @@ Scaling: Monitor
 
   .projectPreview {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-right: 3em;
     text-align: center;
-    width: 95%;
   }
 
   .projectPreviewOne {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
-  .projectPreviewText {
+  .projectPreviewTwo {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .projectPreviewThree {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .projectPreview h2{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1em;
+    padding: 0;
+    background-color: #076cab;
+    border: 1.5px solid #076cab;
+    border-radius: 2px;
+    color: white;
   }
 
   .projectPreview img{
     height: 120px;
     width: 150px;
-    margin: 0;
-    padding-left: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    padding: 0;
+    border: 3px solid #870000;
+    border-radius: 5px;
   }
 
   main {
@@ -280,6 +318,7 @@ Scaling: Monitor
 
   .blogPreview {
     width: 48.5%;
+    padding-bottom: .5em;
   }
 
   .blogPreview h2 {
