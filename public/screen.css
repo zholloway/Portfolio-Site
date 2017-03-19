@@ -103,6 +103,7 @@ header {
     margin-left: 1em;
     margin-right: 1em;
     font-size: .8em;
+    font-weight: normal;
     padding: 0;
     background-color: #076cab;
     border: 1.5px solid #076cab;
@@ -191,6 +192,7 @@ footer h3 {
 
 footer p {
   font-size: .4em;
+  margin-top: 3em;
 }
 
 footer img {
