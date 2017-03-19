@@ -90,6 +90,7 @@ header {
   padding-top: .5em;
   padding-bottom: .5em;
   text-align: center;
+  width: 100%;
 }
 
 .projectPreview img {
@@ -149,6 +150,7 @@ Main
   margin-top: 1.8em;
   margin-bottom: 0;
   font-size: .6em;
+  color: #870000;
 }
 
 h2 {
@@ -206,11 +208,6 @@ Scaling: iPad
 ///
 */
 @media (max-width: 768px) and (min-width: 450px) {
-
-  body {
-      margin-left: 5%;
-      margin-right: 5%;
-    }
 
     header {
       margin-bottom: 1.5em;
@@ -309,6 +306,11 @@ Scaling: iPad
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
+    }
+
+    main, footer {
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .blogPreview {
