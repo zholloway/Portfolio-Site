@@ -205,7 +205,7 @@ footer img {
 Scaling: iPad
 ///
 */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 450px;) {
 
   body {
       margin-left: 5%;
