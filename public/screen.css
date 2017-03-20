@@ -93,6 +93,10 @@ header {
   width: 100%;
 }
 
+.projectPreview a {
+  text-decoration: none;
+}
+
 .projectPreview img {
   height: 100px;
   width: 120px;
@@ -159,6 +163,11 @@ h2 {
   margin-bottom: .3em;
   font-size: 1.2em;
   padding-top: 0;
+}
+
+h2:hover {
+  text-decoration: underline; 
+  cursor: pointer;
 }
 
 .blogPreview a {
